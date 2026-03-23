@@ -12,7 +12,6 @@ Este projeto é uma aplicação mobile desenvolvida em **React Native** que impl
 ## 🛠 Tecnologias Utilizadas
 
 - [React Native](https://reactnative.dev/)
-- [Axios](https://axios-http.com/) (ou Fetch API)
 - [JSON Server](https://github.com/typicode/json-server) (Backend Mock)
 - [React Navigation](https://reactnavigation.org/) (Navegação entre telas)
 
@@ -27,5 +26,5 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 ### 1. Clone o repositório
 ```bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+git clone [https://github.com/jocxzs/CRUD-on-React-Native-w-APIs-REST/edit/main/README.md]
 cd seu-repositorio
