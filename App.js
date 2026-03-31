@@ -1,9 +1,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomePage from './HomePage'; // Assuming HomePage.js exists
-import InfoPages from './InfoPages'; // Assuming InfoPages.js exists
-
+import HomeScreen from './src/screens/HomePage.js';
+import AddEditScreen from './src/screens/AddEditScreen'; 
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -24,14 +23,14 @@ export default function App() {
         {/* Home Screen */}
         <Stack.Screen
           name="Home"
-          component={HomePage}
+          component={HomeScreen}
           options={{ title: 'Lista de Pessoas' }}
         />
 
         {/* Info Screen */}
         <Stack.Screen
           name="Info"
-          component={InfoPages}
+          component={AddEditScreen}
           options={{ title: 'Gerenciar Pessoa' }}
         />
       </Stack.Navigator>

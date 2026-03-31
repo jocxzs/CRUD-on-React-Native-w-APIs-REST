@@ -1,4 +1,7 @@
-function CardPersonal({item, navigation, refresh}){
+import styles from '../styles/styles.js';
+import React, { View, Text, Button } from 'react-native';
+
+export default function CardPersonal({item, navigation, refresh}){
 
     return(
   

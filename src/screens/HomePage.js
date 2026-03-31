@@ -3,7 +3,9 @@ import { View, Text, FlatList, Button } from "react-native";
 
 import styles from "../styles/styles.js";
 
-import { getPeople, deletePerson } from "../servers/peopleCrud";
+import { getPeople, deletePerson } from "../server/peopleCRUD.js";
+
+import CardPersonal from "../components/CardPersonal";
 
 export default function HomeScreen({ navigation }) {
 
@@ -30,20 +32,28 @@ export default function HomeScreen({ navigation }) {
 
       <Button
         title="Adicionar Pessoa"
-        onPress={() => navigation.navigate("AddEdit")}
+        onPress={() => navigation.navigate("Info")}
       />
 
-      <FlatList
+<FlatList
+        style={{ flex: 1 }}
+        contentContainerStyle={{ paddingBottom: 20 }}
         data={people}
         keyExtractor={(item)=>item.id.toString()}
-
         renderItem={({item})=>(
+
           <CardPersonal
+
             item={item}
+
             navigation={navigation}
+
             refresh={loadPeople}
+
           />
+
         )}
+
       />
 
     </View>
