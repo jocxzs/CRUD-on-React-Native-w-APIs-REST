@@ -9,7 +9,7 @@ Este projeto é uma aplicação mobile desenvolvida em **React Native** que impl
 - **Editar:** Atualização de informações existentes.
 - **Remover:** Exclusão de registros com atualização em tempo real na interface.
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - [React Native](https://reactnative.dev/)
 - [JSON Server](https://github.com/typicode/json-server) (Backend Mock)
