@@ -26,7 +26,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/jocxzs/CRUD-on-React-Native-w-APIs-REST/edit/main/README.md
+git clone https://github.com/jocxzs/CRUD-on-React-Native-w-APIs-REST.git
 ````
 ### 2. Instale as dependências
 ````bash
