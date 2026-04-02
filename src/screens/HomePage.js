@@ -3,7 +3,7 @@ import { View, Text, FlatList, Button } from "react-native";
 
 import styles from "../styles/styles.js";
 
-import { getPeople, deletePerson } from "../server/peopleCRUD.js";
+import { getPeople } from "../server/peopleCRUD.js";
 
 import CardPersonal from "../components/CardPersonal";
 

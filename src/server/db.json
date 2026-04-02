@@ -7,12 +7,6 @@
       "email": "rafael@email.com.br"
     },
     {
-      "id": "2",
-      "firstName": "Ana",
-      "lastName": "Silva",
-      "email": "ana.silva@provedor.com.br"
-    },
-    {
       "id": "3",
       "firstName": "Lucas",
       "lastName": "Oliveira",
@@ -301,10 +295,10 @@
       "email": "lore.a@hub.com.br"
     },
     {
-      "id": "9f85",
-      "firstName": "patatiro e patatrafico",
-      "lastName": "lalala",
-      "email": "eai penis"
+      "id": "b08a",
+      "firstName": "jnadosnoi",
+      "lastName": "dwaoisnd",
+      "email": "eaia@gmaik"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -1,5 +1,6 @@
 import styles from '../styles/styles.js';
 import React, { View, Text, Button } from 'react-native';
+import { deletePerson } from "../server/peopleCRUD.js";
 
 export default function CardPersonal({item, navigation, refresh}){
 
